@@ -43,4 +43,31 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show NO"
+        android:id="@+id/button2"
+        android:layout_above="@+id/Randombutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ClipText"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:paddingBottom="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/clearbutton"
+        android:layout_above="@+id/Randombutton"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
